@@ -1,0 +1,22 @@
+Grading r2104 by zzhu31 committed on Fri Jan 20 16:39:32 CST 2017
+Monad Autograder
+Testing lab_intro at 2017-01-23 00:27:44
+
+"If you don't hand in the next homework, you might miss some points." ~ Prof. Jiawei Han
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+testBrighten  . [33 pts] - passed
+testCrosshairs  [33 pts] - passed
+testBlendImages [34 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 100
+
