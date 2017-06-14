@@ -1,0 +1,24 @@
+Grading r48219 by zzhu31 committed on Fri Apr 21 14:42:00 CDT 2017
+Monad Autograder
+Testing mp7.1 at 2017-04-22 00:40:51
+
+"Java is, in many ways, C++-." ~ Michael Feldman
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+addElements1 . . . . [20 pts] - passed
+addElements2 . . . . [20 pts] - passed
+testFindAndSetUnion1 [20 pts] - passed
+testFindAndSetUnion2 [20 pts] - passed
+testFindAndSetUnion3 [20 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 100
+
