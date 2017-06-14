@@ -1,0 +1,28 @@
+Grading r38413 by zzhu31 committed on Fri Mar 31 20:06:09 CDT 2017
+Monad Autograder
+Testing lab_avl at 2017-04-03 00:24:28
+
+"I'm not saying he's evil incarnate based on that fact alone; I've always known it." ~ REDACTED
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+test_oneElement  . . . [8 pts]  - passed
+test_simpleRotateLeft  [8 pts]  - passed
+test_simpleRotateRight [8 pts]  - passed
+test_threeLeftRotates  [8 pts]  - passed
+test_threeRightRotates [8 pts]  - passed
+test_manyRotations . . [17 pts] - passed
+test_manyInserts . . . [17 pts] - passed
+test_manyRemovals  . . [17 pts] - passed
+test_valgrind (asan) . [9 pts]  - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 100
+
