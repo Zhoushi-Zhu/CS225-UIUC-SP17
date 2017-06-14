@@ -1,0 +1,27 @@
+Grading r11958 by zzhu31 committed on Thu Feb  9 15:19:26 CST 2017
+Monad Autograder
+Testing lab_inheritance at 2017-02-13 00:49:03
+
+"All that is gold does not glitter, / Not all those who wander are lost;" ~ Bilbo Baggins
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+test_virtual_perim  . . . . . . [10 pts] - passed
+test_virtual_area . . . . . . . [10 pts] - passed
+test_destructor (asan)  . . . . [20 pts] - passed
+test_constructor  . . . . . . . [10 pts] - passed
+test_drawable_destructor (asan) [10 pts] - passed
+test_truck_draw . . . . . . . . [10 pts] - passed
+test_slicing  . . . . . . . . . [20 pts] - passed
+test_flower_destructor (asan) . [10 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 100
+
