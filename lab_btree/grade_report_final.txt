@@ -1,0 +1,69 @@
+Grading r43174 by zzhu31 committed on Sun Apr  9 16:39:55 CDT 2017
+Monad Autograder
+Testing lab_btree at 2017-04-10 01:26:23
+
+"I love deadlines. I like the whooshing sound they make as they fly by." ~ Douglas Adams
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+test_insertion_idx_emp  . . . [10 pts] - passed
+test_insertion_idx_small  . . [10 pts] - passed
+test_insertion_idx_logn . . . [10 pts] - FAILED: unit_tests.cpp:118: Runtime was larger than O(logn)
+test_btree3_small (asan)  . . [10 pts] - passed
+test_btree3_large_seq . . . . [10 pts] - passed
+test_btree3_large_rand  . . . [10 pts] - passed
+test_btree64_large_seq  . . . [10 pts] - passed
+test_btree64_large_rand . . . [10 pts] - passed
+test_btree128_med_rand (asan) [10 pts] - passed
+test_btree5_strings . . . . . [10 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 90
+
+
+
+Detailed test output...
+================================================================
+----------------------------------------------------------------
+test_insertion_idx_logn [10 points]
+Result: FAILED: unit_tests.cpp:118: Runtime was larger than O(logn)
+Took 8505ms (10000ms timeout)
+Output:
+----------------------------------------------------------------
+Input size 10: 875030 iterations in 1000 ms for an average of 1.14282 us per call
+Input size 100: 817300 iterations in 1000 ms for an average of 1.22355 us per call
+Input size 1000: 785240 iterations in 1000 ms for an average of 1.27351 us per call
+Input size 10000: 740210 iterations in 1000 ms for an average of 1.35097 us per call
+Input size 100000: 405070 iterations in 1000 ms for an average of 2.46874 us per call
+Fitting time: O(1)
+RMS Residual: 0.493146
+Fitting time: O(logn)
+RMS Residual: 0.297727
+Fitting time: O(n)
+RMS Residual: 0.0386729
+Fitting time: O(nlogn)
+RMS Residual: 0.042534
+Fitting time: O(n^2)
+RMS Residual: 0.064017
+Fitting time: O(n^3)
+RMS Residual: 0.0673253
+Fitting time: O(e^n)
+RMS Residual: -nan
+Fitting time: O(never)
+RMS Residual: -nan
+Detected best time: O(n)
+Best RMS Residual: 0.0386729
+
+
+----------------------------------------------------------------
+Total score...
+================================================================
+TOTAL SCORE: 90
+
